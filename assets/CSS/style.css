@@ -1,6 +1,6 @@
 :root {
-    --cards-bg-color: #13293d;
-    --page-back
+    --header-bg-color: #57067c;
+    --page-back: ;
   }
   
   body {
@@ -24,7 +24,7 @@
   header {
     padding: 40px;
     text-align: center;
-    background: #13293d;
+    background-image: linear-gradient( 90deg, var(--header-bg-color), white);
     color: #fff;
   }
   
@@ -34,7 +34,7 @@
   }
   
   nav a {
-    color: #13293d;
+    color: #153452;
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
@@ -54,7 +54,7 @@
     bottom: 0;
     padding: 20px;
     text-align: center;
-    background: #13293d;
+    background: linear-gradient( 90deg, var(--header-bg-color), white);
     color: #fff;
     margin-top: auto;
   }
@@ -82,6 +82,7 @@
   .card > header {
     border-radius: 50px 50px 0px 0px;
     padding: 20px;
+
   }
   
   .card > p {
