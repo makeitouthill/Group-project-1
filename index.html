@@ -31,57 +31,75 @@
     <!-- Product Cards -->
     <div class="products">
       <section class="card">
-        <header>CSS Snippet 1</header>
-        <div class="card-desc"></div>
+        <header>Change Anchor Hover Behavior</header>
+        <div class="card-desc">Change anchor tag hover style like this.</div>
         <code>
           <pre>
-          main {
-            display: inline;
-          }    
+a:hover {
+
+  text-decoration-line: underline;
+  
+}
           </pre>
         </code>    
       </section>
       <section class="card">
-        <header>CSS Snippet 2</header>
+        <header>Only Select Headers With Section Parents</header>
         <div class="card-desc"></div>
         <code>
           <pre>
-          main {
-            display: inline;
-          }    
+section > h2 {
+
+  size: 22px;
+  color: grey;
+
+}    
           </pre>
         </code>
       </section>
       <section class="card">
-        <header>CSS Snippet 3</header>
-        <div class="card-desc"></div>
+        <header>Add a Color Gradient</header>
+        <div class="card-desc">Add a color gradient to any selector.  You can add more than one color.</div>
         <code>
           <pre>
-          main {
-            display: inline;
-          }    
+h2 {
+
+  color: linear-gradient(red, yellow);
+
+}
           </pre>
         </code>
       </section>
       <section class="card">
-        <header>CSS Snippet 4</header>
-        <div class="card-desc"></div>
+        <header>Modify First Letters of Paragraphs</header>
+        <div class="card-desc">Make the fist letter of every paragraph large and a different color</div>
         <code>
           <pre>
-          main {
-            display: inline;
-          }    
+p::first-letter {
+
+  color: grey;
+  text-transform: uppercase;
+  size: 36px;
+
+}
           </pre>
         </code>
       </section>
       <section class="card">
-        <header>CSS Snippet 4</header>
-        <div class="card-desc"></div>
+        <header>Do Something At Window Size X</header>
+        <div class="card-desc">Enable special formating when the window size is at at defined size</div>
         <code>
           <pre>
-          main {
-            display: inline;
-          }    
+@media screen and (max-width: 768px) {
+  
+  header, main {
+
+    flex-direction: column;
+    padding-right: 0;
+
+  }
+
+}
           </pre>
         </code>
       </section>
@@ -90,9 +108,11 @@
         <div class="card-desc">Add custom bullet points to headers using the <before> tag.</before></div>
         <code>
           <pre>
-            h2:before {
-              content: '\273A';
-            }    
+h2:before {
+
+  content: '\273A';
+
+}    
           </pre>
         </code>
       </section>
